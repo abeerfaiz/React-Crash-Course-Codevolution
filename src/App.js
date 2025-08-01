@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import {Greet} from './components/Greet';
 import { Message } from './components/Message';
+import { ClickHandler } from './components/ClickHandler';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Greet name='Dianna' heroName='Batman'>
         <p>This is children props</p>
       </Greet>*/}
-      <Message></Message>
+      {/* <Message></Message> */}
+      <ClickHandler></ClickHandler>
     </div>
   );
 }

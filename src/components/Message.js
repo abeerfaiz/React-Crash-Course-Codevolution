@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export const Message = (props) => {
+export const Message = () => {
 
     const [message, setMessage] = useState('Welcome Visitor')
     return (
