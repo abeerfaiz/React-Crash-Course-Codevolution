@@ -4,6 +4,7 @@ import {Greet} from './components/Greet';
 import { Message } from './components/Message';
 import { ClickHandler } from './components/ClickHandler';
 import { ParentComponent } from './components/ParentComponent';
+import { UserGreeting } from './components/UserGreeting';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       </Greet>*/}
       {/* <Message></Message> */}
       {/* <ClickHandler></ClickHandler> */}
-      <ParentComponent></ParentComponent>
+      {/* <ParentComponent></ParentComponent> */}
+      <UserGreeting/>
     </div>
   );
 }
