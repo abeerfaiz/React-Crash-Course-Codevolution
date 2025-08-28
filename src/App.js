@@ -11,6 +11,8 @@ import { Inline } from './components/inline';
 import styles from './components/appStyles.module.css'
 import './components/appStyles.css'
 import { Form } from './components/Form';
+import { PostList } from './components/PostList';
+import { PostForm } from './components/PostForm';
 
 function App() {
   return (
@@ -32,7 +34,10 @@ function App() {
       <h1 className='error'>Error</h1>
       <h1 className={styles.success}>Success</h1> */}
 
-      <Form/>
+      {/* <Form/> */}
+
+      <PostForm/>
+      <PostList/>
     </div>
   );
 }
